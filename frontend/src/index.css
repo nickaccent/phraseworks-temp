@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tox-tinymce {
+  z-index: 10 !important;
+}
+.tox-statusbar__branding {
+  display: none !important;
+}
+.tox-promotion,
+.tox-notification--warning,
+.tox-statusbar__branding {
+  display: none !important;
+}
